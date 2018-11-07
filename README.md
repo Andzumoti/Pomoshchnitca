@@ -1,6 +1,6 @@
 ## Attention
 This project is just started recently.  
-So there are no releases and it is licensed as "No-License".  
+So there are no releases and it is **NOT** licensed (Anything is **NOT** permitted. exception: Your personal use).  
 When the first release published, I'll unset such license and set AGPL.  
 
 # Pomoshchnitca(Помощница)
