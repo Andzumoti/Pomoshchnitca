@@ -1,0 +1,2 @@
+# pomoshchnitca
+Desktop mascot project
