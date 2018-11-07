@@ -1,2 +1,2 @@
-# pomoshchnitca
+# Pomoshchnitca(Помощница)
 Desktop mascot project
