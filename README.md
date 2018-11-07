@@ -1,6 +1,6 @@
 ## Attention
 This project is just started recently.  
-So there are no releases and it is **NOT** licensed (Anything is **NOT** permitted. exception: Your personal use).  
+So there are no releases and it is licensed as "No-License".  
 When the first release published, I'll unset such license and set AGPL.  
 
 # Pomoshchnitca(Помощница)
@@ -23,3 +23,18 @@ This program is written in or its environment is follows:
 - Kotlin
 - OpenJDK 11
 - JavaFX (OpenJFX 11)
+
+## How to Develop
+you can choose ways:
+
+1. Overwrite this application
+	
+	- you can enhance this app freely but it may be difficult.
+	
+1. Make **plugin** using jar and json (and other files)
+
+	- you may easily add functions.
+	
+1. Another your own way.
+
+	- Good luck :)
