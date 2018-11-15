@@ -1,9 +1,0 @@
-{
-  "plugins": "plugins",
-  "images": {
-    "default": "default.png",
-    "wink": "wink.png",
-    "smile": "smile.png",
-    "icon": "icon.ico"
-  }
-}

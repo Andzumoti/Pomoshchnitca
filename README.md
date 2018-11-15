@@ -1,10 +1,14 @@
 ## Attention
 This project is just started recently.  
-So there are no releases and it is licensed as "No-License".  
-When the first release published, I'll unset such license and set AGPL.  
+There are no releases and it is licensed as "No-License".  
+Therefore, you have no rights without permission.  
+When the first release published, I'll unset such license and licenced as open source.
 
 # Pomoshchnitca(Помощница)
 Desktop mascot project
+
+## Version
+Alpha 0.2
 
 # About Author
 ### Name

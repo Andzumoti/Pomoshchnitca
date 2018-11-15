@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de95541b-7d09-4685-aa9b-3eabbe4956fb" name="Default Changelist" comment="Set directories and settings">
-      <change afterPath="$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sampleData/setting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pomoshchnitca/Controller.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/JSONReader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/JSONValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/JSONWriter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/PluginLoader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Pomoshchnitca_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Toolbox_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Dummy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/dummy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pomoshchnitca.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/resources/fxml/PluguinData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/resources/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pomoshchnitca/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toolbox/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/Plugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pomoshchnitca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pomoshchnitca.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sampleData/setting.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pomoshchnitca/Controller.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolbox/ToolBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolbox/ToolBox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolbox/ToolBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolbox/Toolbox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/JSONReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/Initializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/JSONValue.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/JSONWriter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/PluginLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/PluginLoader.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,53 +38,68 @@
     <session id="856326071">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="3" />
-          <entry key="fxml" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="MF" value="2" />
+          <entry key="class" value="2" />
+          <entry key="fxml" value="4" />
+          <entry key="gitignore" value="2" />
+          <entry key="ico" value="2" />
           <entry key="iml" value="2" />
-          <entry key="json" value="1" />
-          <entry key="kt" value="11" />
-          <entry key="md" value="2" />
-          <entry key="stickyStorage" value="2" />
+          <entry key="java" value="8" />
+          <entry key="json" value="2" />
+          <entry key="kt" value="31" />
+          <entry key="md" value="6" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="13" />
+          <entry key="stickyStorage" value="3" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JSON" value="1" />
-          <entry key="Kotlin" value="11" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="13" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="8" />
+          <entry key="JSON" value="2" />
+          <entry key="Kotlin" value="31" />
+          <entry key="Manifest" value="2" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="12" />
-          <entry key="json" value="125" />
-          <entry key="kt" value="571" />
-          <entry key="md" value="1017" />
+          <entry key="fxml" value="44" />
+          <entry key="json" value="168" />
+          <entry key="kt" value="4207" />
+          <entry key="md" value="1215" />
+          <entry key="properties" value="294" />
           <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="125" />
-          <entry key="Kotlin" value="571" />
-          <entry key="Markdown" value="1017" />
+          <entry key="JSON" value="168" />
+          <entry key="Kotlin" value="4207" />
+          <entry key="Markdown" value="1215" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="XML" value="12" />
+          <entry key="Properties" value="294" />
+          <entry key="XML" value="44" />
         </counts>
       </usages-collector>
     </session>
@@ -82,79 +109,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="336">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
-                <element signature="e#23#173#0" expanded="true" />
+                <element signature="e#23#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StaticData.kt">
+        <entry file="file://$PROJECT_DIR$/src/toolbox/Toolbox.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sampleData/setting.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="152">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="e#17#305#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret lean-forward="true" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="Gfm" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Controller.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#23#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/JSONValue.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/JSONReader.kt">
+        <entry file="file://$PROJECT_DIR$/plugins/dummy.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -163,10 +140,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utilities/JSONWriter.kt">
+        <entry file="file://$PROJECT_DIR$/resources/resources/fxml/Toolbox.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/resources/fxml/PluguinData.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="152" selection-start-line="2" selection-start-column="152" selection-end-line="2" selection-end-column="152" />
             </state>
           </provider>
         </entry>
@@ -177,9 +164,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="FxmlFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -206,15 +194,27 @@
         <option value="$PROJECT_DIR$/src/pomoshchnitca_root/Pomoshchnitca.kt" />
         <option value="$PROJECT_DIR$/src/pomoshchnitca/Launcher.kt" />
         <option value="$PROJECT_DIR$/src/pomoshchnitca/PluginLoader.kt" />
-        <option value="$PROJECT_DIR$/src/utilities/PluginLoader.kt" />
-        <option value="$PROJECT_DIR$/src/toolbox/ToolBox.kt" />
         <option value="$PROJECT_DIR$/src/utilities/JSONValue.kt" />
         <option value="$PROJECT_DIR$/src/pomoshchnitca/Controller.kt" />
-        <option value="$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt" />
-        <option value="$PROJECT_DIR$/src/StaticData.kt" />
         <option value="$PROJECT_DIR$/resources/sampleData/setting.json" />
+        <option value="$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml" />
+        <option value="$PROJECT_DIR$/resources/sampleData/setting.properties" />
+        <option value="$PROJECT_DIR$/src/StaticData.kt" />
+        <option value="$PROJECT_DIR$/resources/data/setting.properties" />
+        <option value="$PROJECT_DIR$/resources/data/settings.properties" />
+        <option value="$PROJECT_DIR$/src/pomoshchnitca/pomoshchnitca.properties" />
+        <option value="$PROJECT_DIR$/pomoshchnitca.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/utilities/PluginLoader.kt" />
+        <option value="$PROJECT_DIR$/src/utilities/Plugin.kt" />
+        <option value="$PROJECT_DIR$/plugins/Dummy.kt" />
+        <option value="$PROJECT_DIR$/src/toolbox/ToolBox.kt" />
+        <option value="$PROJECT_DIR$/src/utilities/Initializer.kt" />
+        <option value="$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt" />
+        <option value="$PROJECT_DIR$/src/toolbox/Toolbox.kt" />
+        <option value="$PROJECT_DIR$/resources/resources/fxml/Toolbox.fxml" />
+        <option value="$PROJECT_DIR$/resources/resources/fxml/PluguinData.kt" />
+        <option value="$PROJECT_DIR$/plugins/dummy.properties" />
       </list>
     </option>
   </component>
@@ -225,9 +225,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="86" />
-    <option name="width" value="927" />
-    <option name="height" value="1207" />
+    <option name="x" value="999" />
+    <option name="width" value="928" />
+    <option name="height" value="607" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -238,13 +238,94 @@
             <id>Android</id>
           </State>
           <State>
+            <id>CDI (Contexts and Dependency Injection)</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
             <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>JSP</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
           </State>
           <State>
             <id>LintAndroid</id>
           </State>
           <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Reactor</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+          <State>
             <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -262,82 +343,39 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="codeStyles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pomoshchnitca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pomoshchnitca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541570743130" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic-Plugins-for-Pomoshchnitca" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542273487539" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/toolbox" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources\resources\images" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources\settings" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources\resources" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources\images" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources\resources" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\src\pomoshchnitca" />
+      <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\resources" />
       <recent name="C:\Users\Andzumoti\Desktop\Workbench\JVM\Pomoshchnitca\src\setting_root" />
     </key>
   </component>
@@ -353,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.toolbox.ToolboxKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -385,6 +423,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="toolbox.ToolboxKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Pomoshchnitca" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="toolbox.ToolboxKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -393,8 +444,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Kotlin.pomoshchnitca.PomoshchnitcaKt" />
+      <item itemvalue="Kotlin.toolbox.ToolboxKt" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.toolbox.ToolboxKt" />
         <item itemvalue="Kotlin.pomoshchnitca.PomoshchnitcaKt" />
       </list>
     </recent_temporary>
@@ -412,17 +468,22 @@
       <workItem from="1541550995928" duration="4996000" />
       <workItem from="1541557498509" duration="242000" />
       <workItem from="1541557994752" duration="3249000" />
-      <workItem from="1541570818228" duration="1913000" />
+      <workItem from="1541570818228" duration="5011000" />
+      <workItem from="1541644537320" duration="2339000" />
+      <workItem from="1542073404564" duration="31138000" />
+      <workItem from="1542249020265" duration="557000" />
+      <workItem from="1542249604264" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10400000" />
+    <option name="totallyTimeSpent" value="51224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="0" width="927" height="1207" extended-state="0" />
+    <frame x="85" y="-8" width="1843" height="1216" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2703016" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4270033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -430,21 +491,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924527" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945116" weight="0.30471697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5082267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Dependency Viewer" order="9" weight="0.32924527" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50054884" side_tool="true" weight="0.29585254" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Minimized stickies" order="13" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32924527" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32723948" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,17 +536,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/toolbox/Launcher.kt" />
     <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Launcher.kt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.stickyStorage" />
     <entry file="file://$PROJECT_DIR$/.idea/Pomoshchnitca.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -511,99 +564,177 @@
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Andzumoti.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/PluginLoader.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toolbox/ToolBox.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#17#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/JSONReader.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/JSONWriter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Controller.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/JSONValue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#23#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StaticData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sampleData/setting.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/.idea/.stickyStorage">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Controller.kt" />
+    <entry file="jar://C:/Java/javafx-sdk-11/lib/javafx.graphics.jar!/com/sun/javafx/application/LauncherImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/javafx-sdk-11/lib/javafx.graphics.jar!/javafx/application/Application.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fxml/Pomoshchnitca.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/JSONWriter.kt" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/JSONReader.kt" />
+    <entry file="file://$PROJECT_DIR$/src/utilities/JSONValue.kt" />
+    <entry file="file://$PROJECT_DIR$/resources/setting.properties" />
+    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/data/setting.properties" />
+    <entry file="file://$PROJECT_DIR$/src/StaticData.kt" />
+    <entry file="file://$PROJECT_DIR$/resources/data/setting.properties" />
+    <entry file="file://$PROJECT_DIR$/resources/data/settings.properties" />
+    <entry file="jar://C:/Java/11/lib/src.zip!/java.base/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toolbox/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Java/11/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/icon.ico" />
+    <entry file="jar://C:/Java/11/lib/src.zip!/java.desktop/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="1489" column="23" selection-start-line="1489" selection-start-column="23" selection-end-line="1489" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/11/lib/src.zip!/java.desktop/java/awt/TrayIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="170" column="22" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon.ico" />
+    <entry file="jar://C:/Java/11/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="2727" selection-start-line="2727" selection-end-line="2727" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Dummy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pomoshchnitca.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/Plugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/Initializer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#19#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/PluginLoader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="Gfm" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
+          <first_editor relative-caret-position="276">
+            <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/images/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pomoshchnitca/Pomoshchnitca.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/fxml/Toolbox.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toolbox/Toolbox.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#17#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/fxml/PluguinData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="152" selection-start-line="2" selection-start-column="152" selection-end-line="2" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/dummy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -611,10 +742,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Toolbox:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -663,6 +796,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
