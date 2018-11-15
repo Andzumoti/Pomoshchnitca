@@ -8,10 +8,10 @@ import java.util.*
 import javax.imageio.ImageIO
 
 object Initializer {
-	val setOfPlugins: MutableSet<Plugin>
+	val mapOfPluginData: MutableMap<File,PluginData>
 	val trayIcon: TrayIcon
 	init {
-		var pluguinsDir: File
+		var pluginsDir: File
 		var iconPath: String
 		Properties().apply {
 			try {
@@ -23,10 +23,10 @@ object Initializer {
 				e.printStackTrace()
 				System.exit(0)
 			}
-			pluguinsDir = File(getProperty("plugins"))
+			pluginsDir = File(getProperty("plugins"))
 			iconPath = getProperty("icon")
 		}
-		setOfPlugins = pluguinsDir.listFiles().filter { it.path.contains(".properties") }.map { PluginLoader(it).load() }.toMutableSet()
+		mapOfPluginData = pluginsDir.listFiles().filter { it.path.contains(".properties") }.associateBy({it}, {PluginData(it)}).toMutableMap()
 		trayIcon = TrayIcon(ImageIO.read(javaClass.classLoader.getResource(iconPath))).apply {
 			isImageAutoSize = true
 		}

@@ -8,15 +8,15 @@ import javafx.scene.control.Alert
 import javafx.scene.control.ButtonType
 import javafx.stage.Stage
 import utilities.Initializer
-import utilities.Plugin
+import utilities.PluginData
+import java.io.File
 import java.util.*
 
 class Toolbox : Application() {
-	private lateinit var setOfPlugins: MutableSet<Plugin>
-	private lateinit var setOfPluginProperties: MutableSet<Properties>
+	private lateinit var mapOfPluginData: MutableMap<File,PluginData>
 	
 	override fun init() {
-		setOfPlugins = Initializer.setOfPlugins
+		mapOfPluginData = Initializer.mapOfPluginData
 		
 	}
 	
@@ -24,13 +24,14 @@ class Toolbox : Application() {
 		with(p0) {
 			title = "Pomoshchnitca(Помощница) - Toolbox"
 			isResizable = false
-			scene = Scene(FXMLLoader.load(javaClass.classLoader.getResource("resources/fxml/Toolbox.fxml")))
+			scene = Scene(FXMLLoader.load(javaClass.classLoader.getResource
+			("resources/fxml/Toolbox.fxml")))
 			show()
 			setOnCloseRequest {
 				Alert(Alert.AlertType.CONFIRMATION).apply {
 					title = "Notification"
 					headerText = null
-					contentText = "Are you sure to close without saving"
+					contentText = "Are you sure to close without saving?"
 					showAndWait().apply {
 						if (this.get() == ButtonType.OK) System.exit(0) else it.consume()
 					}

@@ -8,7 +8,7 @@ When the first release published, I'll unset such license and licenced as open s
 Desktop mascot project
 
 ## Version
-Alpha 0.2
+(not Alpha Released)
 
 # About Author
 ### Name
