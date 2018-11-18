@@ -5,8 +5,8 @@ import java.io.FileInputStream
 import java.io.InputStream
 import java.util.*
 
-data class PluginData(var name: String, var author: String, var version: String, var hasManual: Boolean, var hasSetting: Boolean, var isActive: Boolean, var plugin: Plugin) {
-	constructor(properties: Properties) : this("", "", "", false, false, false, NullPlugin) {
+data class PluginData(var name: String, var author: String, var version: String, var hasManual: Boolean, var hasSetting: Boolean, var isActive: Boolean, var properties: Properties, var plugin: Plugin) {
+	constructor(properties: Properties) : this("", "", "", false, false, false, properties, NullPlugin) {
 		properties.apply {
 			name = getProperty("name")
 			author = getProperty("author")

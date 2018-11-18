@@ -13,7 +13,7 @@ import java.io.File
 import java.util.*
 
 class Toolbox : Application() {
-	private lateinit var mapOfPluginData: MutableMap<File,PluginData>
+	private lateinit var mapOfPluginData: MutableMap<Properties,PluginData>
 	
 	override fun init() {
 		mapOfPluginData = Initializer.mapOfPluginData
